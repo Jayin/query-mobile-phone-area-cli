@@ -6,7 +6,6 @@ var query = require('query-mobile-phone-area')
 
 if (process.argv.length < 3) {
     console.log('请输入手机号码')
-    process.exit(0)
 } else {
     var result = query(process.argv[2])
     if(result){
