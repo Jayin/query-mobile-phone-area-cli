@@ -1,0 +1,32 @@
+{
+  "name": "query-mobile-phone-area-cli",
+  "version": "1.0.0",
+  "description": "query mobile phone area with CLI",
+  "main": "index.js",
+  "bin": {
+    "mobilephone": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jayin/query-mobile-phone-area-cli.git"
+  },
+  "keywords": [
+    "query",
+    "mobile",
+    "phone",
+    "area",
+    "cli"
+  ],
+  "author": "Jayin Ton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jayin/query-mobile-phone-area-cli/issues"
+  },
+  "homepage": "https://github.com/Jayin/query-mobile-phone-area-cli#readme",
+  "dependencies": {
+    "query-mobile-phone-area": "^1.0.5"
+  }
+}
